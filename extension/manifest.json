@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "wjx-score-downloader",
+  "description": "问卷星成绩下载器",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "js/content.js"
+      ],
+      "css": [
+        "css/mce.css"
+      ],
+      "matches": [
+        "https://www.wjx.cn/wjx/activitystat/*"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+.my-container {
+    display: flex;
+    gap: 8px;
+    padding: 0 8px;
+}
+
+.my-container button {
+    padding: 0 8px;
+    border-radius: 4px;
+    background-color: #0095ff;
+    color: #fff;
+}
+
+.my-container .save-path {
+    padding: 0 6px;
+    border-radius: 4px;
+    width: 100px;
+}
